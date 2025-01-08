@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học table</title>
+</head>
+<body>
+    <h1>Table in HTML</h1>
+    <p>Dùng colspan, rowspan để gộp cột hoặc hàng</p>
+    <p>Gõ nhanh cấu trúc: thead>tr>th*3</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>Số lượng còn lại</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Áo thun nam</td>
+                <td>100.000 VND</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Quần jean nữ</td>
+                <td>200.000 VND</td>
+                <td>20</td>
+            </tr>
+            <td>Giày thể thao</td>
+            <td>500.000 VND</td>
+            <td>30</td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Remark</td>
+                <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

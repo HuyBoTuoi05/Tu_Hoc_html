@@ -1,0 +1,66 @@
+body{
+    background:fixed ;
+    background-color: #B2EBE0;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(223, 37, 37);/* màu chữ */
+    
+    font-style: inherit;/* kiểu chữ */
+    
+    font-family: 'Times New Roman', Times, serif;/* font chữ */
+    
+    text-transform: uppercase;/* chữ thường-hoa */
+
+    text-align: center; /* căn chỉnh văn bản */
+
+    font-size: 40px; /* Cỡ chữ */
+
+    opacity: 100%; /* độ mờ chữ */
+
+    /* display: none; hiển thị*/ 
+
+    background-color: rgb(0, 0, 0); /* màu nền của phân tử */
+    
+    /* visibility: hidden; ẩn đối tượng  */
+}
+h2{
+    color: rgb(58, 95, 99);/* màu chữ */
+    
+    font-style: inherit;/* kiểu chữ */
+    
+    font-family:'Times New Roman', Times, serif;/* font chữ */
+    
+    /* text-transform: uppercase;chữ thường-hoa */
+
+    text-align: left; /* căn chỉnh văn bản */
+
+    font-size: 30px; /* Cỡ chữ */
+
+    opacity: 100%; /* độ mờ chữ */
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+h3{
+    color: rgb(3, 25, 28);/* màu chữ */
+    
+    text-indent: 30px; /* lùi đầu dòng */
+    
+    font-style: inherit;/* kiểu chữ */
+    
+    font-family:'Times New Roman', Times, serif;/* font chữ */
+    
+    /* text-transform: uppercase;chữ thường-hoa */
+
+    text-align: left; /* căn chỉnh văn bản */
+
+    font-size: 20px; /* Cỡ chữ */
+
+    opacity: 100%; /* độ mờ chữ */
+}
+code{
+    color: rgb(9, 12, 230);
+    
+}
