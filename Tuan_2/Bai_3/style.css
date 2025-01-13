@@ -1,0 +1,107 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.c1{
+    background-image: url(./img/background.jpg);
+    width: 900px;
+    margin-top: 20px;
+    height: 1050px;
+    /* background-color: rgb(76, 215, 250); */
+}
+header{
+    padding-top: 10px;
+    padding-left: 13px;
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(126, 101, 150); */
+}
+nav{
+    padding-left: 13px;
+    width: 200px;
+    height: 800px;
+    /* background-color: aquamarine; */
+    float: left;
+    border-right: 3px solid green;
+    margin-bottom: 30px;
+}
+nav ul{
+    background-color: aliceblue;
+    margin-left: 5px;
+    width: 150px;
+    padding: 5px;
+    height: 170px;
+    box-shadow:2px 2px 1px 3px rgb(157, 156, 156),3px 3px 1px 7px rgb(92, 92, 92);
+}
+nav ul li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+section{
+    width: 700px;
+    height: 800px;
+    padding-left: 20px;
+    /* background-color: rgb(18, 122, 87); */
+    float: left;
+}
+section h2{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-right: 200px;
+    padding-left: 40px;
+    height: 30px;
+}
+section img{
+    margin-top: 20px;
+}
+section h3{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    margin-right: 300px;
+}
+section ul{
+    padding-left: 40px;
+    padding-top: 15px;
+}
+section p{
+    margin-top: 15px;
+    color: aliceblue;
+    text-align: left;
+}
+.pa{
+    margin-top: 20px;
+    color: aliceblue;
+    text-align: left;
+    margin-right: 200px;
+}
+#tammy{
+    transform: skewX(10deg);
+    text-decoration: line-through 1px;
+}
+section ul li{
+    color: aliceblue;
+}
+
+footer{
+    border-top: 8px double green;
+    clear: both;
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+

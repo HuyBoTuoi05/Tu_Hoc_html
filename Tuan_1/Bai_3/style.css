@@ -1,0 +1,12 @@
+div{
+    width: 780px;
+    height: 380px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+span{
+    color: rgb(255, 163, 33);
+}
+#ita{
+    font-style: italic;
+}

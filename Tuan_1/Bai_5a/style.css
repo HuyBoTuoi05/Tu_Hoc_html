@@ -1,0 +1,26 @@
+.doub{
+    height: 40px;
+    border: 1px solid;
+}
+.th{
+    width: 30px;
+    border: 1px solid;
+}
+table, th, td{
+    border: 1px solid black;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#d1{
+    width: 480px;
+    height: 182px;
+    border: 1px solid rgb(221, 221, 221);
+}
+#d2{
+    width: 470px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}

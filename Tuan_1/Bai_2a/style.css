@@ -1,0 +1,12 @@
+div{
+    width: 900px;
+  height: 660px;
+  padding-top: 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(102, 158, 226);
+}
+#p1{
+font-style: italic;
+}
