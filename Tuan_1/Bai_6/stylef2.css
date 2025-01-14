@@ -1,0 +1,41 @@
+#panel{
+    border: 1px solid blue;
+    width: 700px;
+    height: 500px;
+}
+.boxtitle{
+    position: relative;
+    border: 2px solid #000;
+    padding: 20px;
+    margin-top: 8px;
+    margin-left: 2px;
+    width: 640px;
+    background-color: #fff;
+}
+.b1{
+    height: 250px;
+}
+.content1, .content2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.content1 label{
+    width: 100px;
+    height: 20px;
+}
+.content2 label{
+    width: 160px;
+}
+#Message{
+    width: 380px;
+    height: 160px;
+}
+
+.title{
+    position: absolute;
+    top: -25px; /* Đặt tiêu đề nằm phía trên đường viền */
+    left: 20px;
+    background-color: #fff; /* Nền của tiêu đề để che phần đường viền */
+    padding: 0 10px;
+}

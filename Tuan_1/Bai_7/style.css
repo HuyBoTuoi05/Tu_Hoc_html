@@ -1,0 +1,103 @@
+#panel{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid saddlebrown;
+    border-radius: 20px ;
+    background-color: rgb(244, 208, 168);
+}
+
+header{
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    position: relative;
+    background: linear-gradient(to right, rgb(29, 0, 132), rgb(90, 0, 115), rgb(95, 0, 74), rgb(144, 4, 4));
+}
+header img{
+    align-items: flex-start;
+    width: 30%;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+hr{
+    margin-bottom: 0px;
+
+}
+#navi{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#navi~div{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-top: 0px;
+    width: 165px;
+    height: 30px;
+    float: left;
+    background-color: rgb(202, 148, 97);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#navi~div:hover{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-top: 0px;
+    width: 165px;
+    height: 30px;
+    float: left;
+    background-color: rgb(173, 114, 59);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#navi~div:active{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-top: 0px;
+    width: 165px;
+    height: 30px;
+    float: left;
+    background-color: rgb(183, 133, 87);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+h2{
+    font-size: 30px;
+    color: rgb(7, 51, 36);
+    margin-left: 30px;
+}
+#ovv~p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+section img{
+    width: 400px;
+    margin-right: 40px;
+    margin-left: 10px;
+    float: right;
+    border: 1px solid rgb(97, 66, 9);
+    border-radius: 20px;
+}
+ul li{
+    margin-left: 10px;
+}
+footer p{
+    font-size: small;
+    font-style: italic;
+    margin-left: 40px;
+}
+
