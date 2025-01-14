@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="stylef1.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="panel">
+        <header>
+            <div id="titlebox">
+                <div id="picbox" style="float: left;">
+                    <img src="./img/Screenshot_2025-01-14_130150-removebg-preview.png" alt="" style="height: 30px; width: 33px; margin-left;">
+                </div>    
+                <div id="jac" style="float: left; width: 217px;">
+                    <p class="title" style="margin-left: 50px;">Jackson</p>
+                </div>
+                <hr id="hrtit" style="clear: both;">
+                <p class="title" style="text-align: center;">Electronics</p>
+            </div>
+        </header>
+        <section>
+            <h1>Registration</h1>  
+            <p>Register your Jackson Electronics product here</p>
+            <div class="formGroup">
+                <label for="txFName">First name: </label>
+                <input type="text" name="txFName" id="txFName" style="width: 90px;">
+                <label for="txLName" style="width: fit-content;">Last name: </label>
+                <input type="text" name="txLName" id="txLName" style="width: 90px;">
+            </div>
+            <div class="formGroup">
+                <label for="address1">Address #1</label> 
+                <input type="text" name="address1" id="address1">
+            </div>
+            <div class="formGroup">
+                <label for="address2">Address #2</label> 
+                <input type="text" name="address2" id="address2">
+            </div>
+            <div class="formGroup">
+                <label for="city">City: </label>
+                <input type="text" name="city" id="city" style="width: 130px;">
+                <label for="state" style="width: fit-content;">State: </label>
+                <input type="text" name="state" id="state" style="width: 40px;">
+                <label for="zip" style="width: fit-content;">Zip: </label>
+                <input type="text" name="zip" id="zip" style="width: 40px;">
+            </div>
+            <div class="formGroup">
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" style="width: 130px;">
+            </div>
+            <hr>
+            <div class="formGroup">
+                <label for="product">Product: </label>
+                <select name="product" id="product">
+                    <option value="ScanMaster">ScanMaster</option>
+                    <option value="Refrigerator">Refrigerator</option>
+                    <option value="Washing machine">Washing machine</option>
+                    <option value="Stoves">Stoves</option>
+                    <option value="Fan">Fan</option>
+                    <option value="Air-conditioner">Air-conditioner</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="txdate">Date Purchased: </label>
+                <input type="text" name="txdate" id="txdate" style="width: 130px;">
+            </div>
+            <div class="formGroup">
+                <label for="serial">Serial #: </label>
+                <input type="text" name="serial" id="seri" style="width: 130px;">
+            </div>
+            <div>
+                <label style="margin-right: 170px;">Use for: </label>
+                <!-- Đặt các input chung tên để chỉ được chọn 1 option -->
+                <input type="radio" name="organization" id="Home">
+                <label for="Home">Home</label>
+
+                <input type="radio" name="organization" id="eduIns" style="margin-left: 67px;">
+                <label for="eduIns">Educational Institution</label> <br>
+
+                <input type="radio" name="organization" id="Business" style="margin-left: 230px;">
+                <label for="Business">Business</label>
+
+                <input type="radio" name="organization" id="other1" style="margin-left: 50px;">
+                <label for="other1">Other</label> <br>
+
+                <input type="radio" name="organization" id="Government" style="margin-left: 230px;">
+                <label for="Government">Government</label>
+            </div>
+            <div>
+                <label for="" style="width: 230px;">System (check all that apply): </label>
+
+                <input type="checkbox" name="system" id="window" style="margin-left: 35px;">
+                <label for="window">Windows</label >
+                <input type="checkbox" name="system" id="unix" style="margin-left: 48px;">
+                <label for="unix">UNIX</label>
+                <br>
+                <input type="checkbox" name="system" id="macintosh" style="margin-left: 230px;">
+                <label for="macintosh">Macintosh</label>
+                <input type="checkbox" name="system" id="other2" style="margin-left: 41px;">
+                <label for="other2">Other</label>
+            </div>
+            <hr>
+            <div id="cmtbox">
+                <label for="txArea" id="cmt">Comments?: </label>
+                <textarea name="txArea" id="txArea" cols="60" rows="4"></textarea>
+            </div>
+        </section>
+        <footer>
+            <button>Click to register</button>
+            <button>Click to cancel</button>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+#panel{
+    background-color: rgb(116, 179, 242);
+    width: 530px;
+    height: 650px;
+    padding-top: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 60px;
+    margin: 0 auto;
+}
+header{
+    margin-left: 140px;
+}
+#titlebox{
+    width: 250px;
+    height: 65px;
+    background-color: rgb(53, 237, 231);
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 0px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#hrtit{
+    height: 3px;
+    background-color: black;
+    border: 1px solid;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+}
+h1{
+    text-align: center;
+}
+.formGroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.formGroup label {
+    width: 230px;
+}
+hr{
+    height: 2px;
+    background-color 
+    : rgb(85, 85, 85);
+}
+#cmtbox{
+    display: flex;
+}
+#cmt{
+    font-size: 14px;
+    vertical-align: top;
+}
+textarea{
+    margin-left: 157px;
+    box-sizing: border-box;
+    width: 370px;
+    height: 80px;
+}
+footer{
+    text-align: center;
+}
+footer button{
+    margin-top: 10px;
+    border-radius: 6px;
+    width: 160px;
+    height: 30px;
+    
+}
+footer button:hover{
+    margin-top: 10px;
+    border-radius: 6px;
+    width: 160px;
+    height: 30px;
+    background-color: rgb(226, 228, 229);
+}
