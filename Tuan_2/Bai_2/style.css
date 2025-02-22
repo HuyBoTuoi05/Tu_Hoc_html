@@ -1,0 +1,138 @@
+.container{
+    margin: auto;
+    width: 1100px;
+    height: 760px;
+    padding: 15px;
+    border: 2px solid rgb(137, 137, 137);
+    box-sizing: border-box;
+    box-shadow: 3px 3px 6px rgb(184, 184, 184), -3px 0px 5px rgb(186, 185, 185);
+}
+header{
+    box-sizing: border-box;
+    height: 180px;
+    background-image: url(./img/background.png);
+}
+header img{
+    float: left;
+    height: 140px;
+}
+header h1{
+    color: aliceblue;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 140px;
+    height: 70px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+header h2{
+    color: aliceblue;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 140px;
+    height: 70px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+nav{
+    height: 40px;
+    background-color: rgb(176,175,171);
+    color: aliceblue;
+}
+nav div{
+    width: 100px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    font-weight: 500;
+}
+p{
+    margin: 5px 0px;
+}
+section{
+    box-sizing: border-box;
+    width: 70%;
+    height: 510px;
+    float: left;
+}
+.article{
+    margin: 15px 0px;
+    padding-left: 15px;
+    height: 230px;
+    width: 100%;
+    color: rgb(146, 146, 146);
+}
+.article .pic{
+    float: left;
+    padding: 5px;
+    width: 290px;
+    height: 220px;
+    border: 1px solid rgb(208, 208, 208);
+}
+.vb{
+    box-sizing: border-box;
+    float: left;
+    padding: 20px 20px;
+    width: 435px;
+    height: 220px;
+}
+section h2{
+    font-family:"Bookman Old Style";
+    color: rgb(146, 146, 146);
+    margin: 0px;
+}
+h3{
+    font-family:"Bookman Old Style";
+    color:  rgb(254, 98, 142);
+    font-weight: 100;
+    margin: 0px;
+}
+.pa{
+    margin: 20px 0px;
+    font-size: 20px;
+    color: rgb(146, 146, 146);
+}
+aside{
+    box-sizing: border-box;
+    border-left: 1px solid rgb(213, 213, 213);
+    width: 300px;
+    height: 510px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-family: "Bookman Old Style";
+}
+.spc1 p{
+    font-size: 20px;
+    color: rgb(254, 98, 142);
+    border-bottom: 1px solid rgb(191, 191, 191);
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.spc2 p{
+    color:  rgb(146, 146, 146);
+}
+aside h2{
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(254, 98, 142);
+}
+footer{
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height: 5%;
+    clear: both;
+    background-color: rgb(176,175,171);
+    color: aliceblue;
+}
+span{
+    font-size: smaller;
+}

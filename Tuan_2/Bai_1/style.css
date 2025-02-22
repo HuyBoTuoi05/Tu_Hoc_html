@@ -1,0 +1,196 @@
+.container{
+    width: 1400px;
+    height: 920px;
+    background-color: rgb(255, 248, 240);
+    margin: auto;
+    border: 1px solid rgb(180, 90, 96);
+}
+
+header{
+    width: 1400px;
+    height: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(180, 90, 96);
+}
+header h2{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-style: oblique;
+    color:  rgb(255, 75, 75);
+    text-shadow: 6px 6px 1px rgb(255, 156, 156);  
+    text-align: center; 
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+nav{
+    width: 1400px;
+    height: 40px;
+    background-color: rgb(234,149,152);
+    box-sizing: border-box;
+    padding: 5px 0px;
+}
+
+nav div {
+    width: 150px;
+    height: 25px;
+    padding-top: 5px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#home{
+    width: 380px;
+    text-align: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+#search{
+    width: 260px;
+    text-align: left;
+    padding-left: 20px;
+}
+.search-box{
+    width: 140px;
+}
+.center{
+    box-sizing: border-box;
+    width: 1400px;
+    height: 700px;
+    padding-top: 10px;
+}
+.west{
+    width: 200px;
+    height: 700px;
+    float: left;
+}
+.west div{
+    margin-top: 5px;
+    width: 190px;
+    height: 25px;
+    background-color:  rgb(234,149,152);
+    border-radius: 13px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    
+}
+.west div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#pic{
+    margin-top: 20px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(./img/company.png);
+    background-size: cover;
+    box-shadow: 10px 15px 10px  rgb(255, 172, 174);
+}
+.mid{
+    box-sizing: border-box;
+    padding-left: 15px;
+    width: 900px;
+    height: 700px;
+    float: left;
+}
+.mid .title{
+    padding-left: 260px;
+}
+.mid h3{
+    font-size: 25px;
+    color: rgb(179, 54, 58);
+    letter-spacing: 10px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    margin: 0px;
+    background-color:  rgb(234,149,152);
+}
+.mid ul{
+    margin: 5px;
+}
+.mid a{
+    color: red;
+}
+.vip{
+    color: red;
+}
+#form div{
+    margin-top: 30px;
+}
+.ip{
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 390px;
+    height: 50px;
+    margin-right: 40px;
+    border-radius: 3px;
+}
+textarea{
+    width: 815px;
+    height: 60px;
+    border-radius: 3px;
+}
+.btn{
+    height: 40px;
+}
+.east{
+    width: 300px;
+    height: 630px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+}
+.east h3{
+    margin: 5px;
+    color: aliceblue;
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.dv1{
+    margin-left: 30px;
+    width: 250px;
+}
+.east img{
+    width: 250px;
+    height: 130px;
+}
+.east p{
+    color: aliceblue;
+    margin-top: 5px;
+}
+footer{
+    box-sizing: border-box;
+    float: left;
+    background-color: rgb(234,149,152);
+    width: 100%;
+    height: 75px;
+    border-top: 1px solid rgb(180, 90, 96);
+}
+footer p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+.mortx a{
+    color: rgb(254, 184, 143);
+}
