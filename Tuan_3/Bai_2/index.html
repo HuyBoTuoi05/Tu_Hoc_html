@@ -3,62 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Bai_2/CSS/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Bai 2 - Tuan 3</title>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="background-color: rgb(41,78,121);">
-            <div class="col-4 " >
-                <img src="./img/flower.png" alt="">
-                <p>flower box</p>
+        <header>
+            <img src="./img/flower.png" alt="">
+            <h2>FlowerBox 360</h2>
+            <p>...to get your daily close of luxury roses!</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promotion</a></li>
+                <li><a href="#">Gift Baskets</a></li>
+                <li><a href="#">Flowers Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <input type="search" name="src" id="src" placeholder="Search the site...">
+            <button style="color: aliceblue;">GO</button>
+        </header>
+        <section>
+            <div class="heading">
+                <p>Why Not Contact Us Today!</p>
             </div>
-            <div class="col-8">
-                <div class="row" style="background-color: rgb(41,78,121);">
-                    search
-                </div>
-                <div class="row" style="background-color: rgb(41,78,121);">
-                    <ul class="nav">
-                        <li class="nav-item bg-secondary">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item bg-secondary">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item bg-secondary">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item bg-secondary">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item bg-secondary">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                    </ul>
+            <div class="left">
+                <p>For FlowerBox 360 shopers, that means not only can you send your friends and loves ones the highest
+                    quality flowers found on online, but thatt you can do so at a great value.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="txtName">Name:</label>
+                            <input type="text" name="txtName" id="txtName">
+                        </td>
+                        <td>
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" name="txtEmail" id="txtEmail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtTelephone">Telephone:</label>
+                            <input type="text" name="txtTelephone" id="txtTelephone"></td>
+                        <td>
+                            <label for="txtSubject">Subject:</label>
+                            <input type="text" name="txtSubject" id="txtSubject"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="txtArea">Message:</label>
+                            <textarea name="txtArea" id="txtArea" cols="49" rows="4"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>Sumit</button>
+                            <button>Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right">
+                <div id="title">FlowerBox 360 Info!</div>
+                <div>
+                    <p>
+                        Openationg Hours: <br> 
+                        Monday-Friday: 9:00am-5:00pm <br>
+                        Saturday: 9:00am-1.00pm. <br>
+                        Sunday: CLosed (No Deliveries)
+                        ORDER ONLINE 24/7
+                    </p>
+                    <p style="margin-top: 40px;">Software Engineering Dept. <br>
+                        Information Technology Faculty <br>
+                        First Floor, H Building</p>
+                    <p>12 Nguyen Van Bao, Ward 4, <br>
+                        Go Vap District, Ho Chi Minh City <br>
+                        Tel: 0283.8940 390 <br>
+                        Fax: 0283.9940 954</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-8">
-                <div class="row">
-                    why not contact us to day
+        </section>
+        <aside>
+            <div class="box">
+                <div class="heading2">
+                    Discounts & Specials
                 </div>
-                <div class="row">
-                    <div class="col-7 bg-danger">
-                        form
-                    </div>
-                    <div class="col-5 bg-primary">
-                        flower box 360 info
-                    </div>
+                <div class="khung"><img src="./img/rose.png" alt=""></div>
+                <div>
+                    <p>
+                        FlowerBox 360 offers many great discounts throughout the year, from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderful troops!
+                    </p>
+                    <p style="text-align: right; color: blue; font-weight: bolder;">Read More »</p>
                 </div>
             </div>
-            <div class="col-4 bg-info">aside</div>
-        </div>
-        <div class="row bg-secondary">
-            <footer>
-                footer
-            </footer>
-        </div>
+        </aside>
+        <footer>
+            <p>Copyright © 2017 - All Rights Reserved - <span id="spc">Software Engineering Department - Industrial University of Ho Chi Minh City</span></p>
+        </footer>
     </div>
 </body>
 </html>

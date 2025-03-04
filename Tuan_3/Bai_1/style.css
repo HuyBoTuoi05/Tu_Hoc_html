@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: linear-gradient(#6dcaec, #5fa2f0);
+    margin: 20px auto;
+    width: 900px;
+    height: 560px;
+}
+header{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border-bottom: 5px dotted white;
+}
+header ul{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+header ul li{
+    margin-right: 25px;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 18px;
+}
+header h2{
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: 0px 0px 8px #002365, 0 0 13px blue;
+}
+section{
+    float: left;
+    width: 50%;
+    height: 440px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+section h3{
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 40px;
+}
+section p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: aliceblue;
+    text-align: justify;
+}
+section .form{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.form td{
+    padding-top: 4px;
+}
+.form label{
+    color: aliceblue;
+}
+.form td input{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 195px;
+}
+.form select, textarea{
+    border-radius: 5px;
+}
+.form button{
+    border: 1px dashed black;
+    border-radius: 3px;
+    background-color: #dedbdc;
+    padding: 2px 5px;
+}
+aside{
+    float: left;
+    width: 50%;
+    height: 440px;
+}
+aside img{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 85%;
+}
+#p1{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder;
+    text-shadow: 3px 3px blue;
+}
+#p2{
+    margin-top: 5px;
+    margin-left: 60px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+footer{
+    border-top: 5px dotted white;
+    clear: both;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+footer p{
+    font-size: 14px;
+    color: aliceblue;
+    text-align: center;
+}
+footer .bol, .bol_ita{
+    font-weight: bolder;
+}
+footer .bol_ita{
+    font-style: italic;
+}
